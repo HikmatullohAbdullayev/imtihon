@@ -9,6 +9,7 @@ import { Edit } from './pages/edit/edit'
 import { Post } from './pages/post/post'
 import { NoPage } from './pages/no-page'
 
+
 function App() {
 
   return (
@@ -22,7 +23,7 @@ function App() {
         </Route>
 
       </Routes>
-    <NavLeft/>
+    
     {/* <Typography>
     </Typography> */}
 
@@ -31,3 +32,4 @@ function App() {
 }
 
 export default App
+

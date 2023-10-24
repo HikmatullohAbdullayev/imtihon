@@ -22,6 +22,10 @@ export const NavLeft = () =>{
 }
 
 const NavLeftStyle = styled.div`
+/* position: fixed;
+left: 20px;
+z-index: -1; */
+float: left;
          display: flex;
     justify-content: flex-start;
      align-content:center;
@@ -35,6 +39,7 @@ const NavLeftStyle = styled.div`
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    height: 100vh;
 
 
 `
